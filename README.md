@@ -90,7 +90,7 @@ FLAGS
         show result and ground truth in graphical. (default True)
 ```
 
-* **EXAMPLE: Using HKMF-T to recover the period of blackouts [140, 143) in the BSD dataset (with sample outputs). **
+* **EXAMPLE: Using HKMF-T to recover the period of blackouts [140, 143) in the BSD dataset (with sample outputs).**
 ```shell
 $ python main.py single BSD 140 143 --method=hkmft
 2021-09-26 13:37:47,443 epoch 1: 0.44472770922260274
@@ -158,7 +158,7 @@ FLAGS
         (hkmft) converge if diff less than threshold. (default 0.001)
 ```
 
-* **EXAMPLE: We enumerate the blackouts with length from 1 to 20. And for each length, we enumerate all periods of blackouts from the beginning to the end of the dataset .**
+* **EXAMPLE: We enumerate the blackouts with length from 1 to 20. And for each length, we enumerate all periods of blackouts from the beginning to the end of the dataset.**
 ```shell
 $ python main.py enum MVCD 1-20 --max_epoch=5000 --method=hkmft
 [Parallel(n_jobs=35)]: Using backend LokyBackend with 35 concurrent workers.
