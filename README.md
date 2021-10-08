@@ -1,6 +1,6 @@
 # HKMF-T
 
-An implementation of the HKMF-T algorithm proposed in [Liang Wang, Simeng Wu, Tianheng Wu, Xianping Tao, and Jian Lu. HKMF-T: Recover from Blackouts in Tagged Time Series with Hankel Matrix Factorization. IEEE Transactions on Knowledge and Data Engineering (Early Access), 03 February 2020.](https://doi.org/10.1109/TKDE.2020.2971190) in Python, by Huiyu Jiang.
+An implementation of the HKMF-T algorithm proposed in [L. Wang, S. Wu, T. Wu, X. Tao and J. Lu, "HKMF-T: Recover From Blackouts in Tagged Time Series With Hankel Matrix Factorization," in IEEE Transactions on Knowledge and Data Engineering, vol. 33, no. 11, pp. 3582-3593, 1 Nov. 2021, doi: 10.1109/TKDE.2020.2971190.](https://doi.org/10.1109/TKDE.2020.2971190) in Python, by Huiyu Jiang.
 
 ## 1. Description
 
