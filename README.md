@@ -2,6 +2,8 @@
 
 An implementation of the HKMF-T algorithm proposed in [L. Wang, S. Wu, T. Wu, X. Tao and J. Lu, "HKMF-T: Recover From Blackouts in Tagged Time Series With Hankel Matrix Factorization," in IEEE Transactions on Knowledge and Data Engineering, vol. 33, no. 11, pp. 3582-3593, 1 Nov. 2021, doi: 10.1109/TKDE.2020.2971190.](https://doi.org/10.1109/TKDE.2020.2971190) in Python, by Huiyu Jiang.
 
+This repo is a mirror of: https://gitee.com/wlicsnju/hkmf-t
+
 ## 1. Description
 
 HKMF-T decomposes the data sequence into two components: 1) an internal, slowly-varying smooth trend, and 2) external impacts indicated by the tag sequence. By transforming a partially observed data sequence into a corresponding Hankel matrix, we learn the above two components and estimate the missing values under a unified framework of Hankel matrix factorization.
